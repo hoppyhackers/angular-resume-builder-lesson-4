@@ -1,0 +1,74 @@
+body {
+	margin: 0px 0px 10px 0px;
+	font-family: 'Roboto';
+	font-weight: 300;
+	color: #555;
+}
+.container-fluid {
+	padding: 0px;
+}
+
+/*-- SUMMARY --*/
+.summary {
+	background-image: url('https://storage.googleapis.com/idx-acnt-gs.ihouseprd.com/AR688778/site/banner_image_original_1438092449.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding-bottom: 25%;
+	margin-bottom: 50px;
+}
+.summary .col-md-3 img {
+	margin-top: 25%;
+	width: 100%;
+}
+.summary .col-md-5 {
+	background-color: rgba(255, 255, 255, 0.75);
+	margin-top: 5%;	
+	text-align: center;
+}
+@media (min-width: 992px) {
+	.summary .col-md-3 img {
+		margin-top: 100px;
+	}
+	.summary .col-md-5 {
+		background-color: rgba(255, 255, 255, 0.75);
+		margin-top: 100px;
+		text-align: left;
+	}
+}
+
+/*-- SKILLS --*/
+.skills {
+	width: 80%;
+	margin: 0% 10%;
+}
+.skills table {
+	table-layout: fixed;
+}
+
+/*-- EXPERIENCE --*/
+.experience {
+	width: 80%;
+	margin: 30px 10%;
+}
+
+/*-- EDUCATION --*/
+.education {
+	width: 80%;
+	margin: 30px 10%;
+}
+
+/*-- ENTRY --*/
+.entry ul {
+	list-style-type: circle;
+}
+@media (min-width: 992px) {
+	.entry h3 {
+		text-align: right;
+	}
+}
+
+/*-- Contact --*/
+.contact {
+	width: 80%;
+	margin: 30px 10%;
+}
