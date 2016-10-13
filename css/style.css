@@ -7,6 +7,10 @@ body {
 .container-fluid {
 	padding: 0px;
 }
+hr {
+	width: 80%;
+	margin: 2.5% 10%;
+}
 
 /*-- SUMMARY --*/
 .summary {
@@ -37,10 +41,6 @@ body {
 }
 
 /*-- SKILLS --*/
-.skills hr {
-	width: 80%;
-	margin: 0% 10%;
-}
 .skills table {
 	table-layout: fixed;
 	margin: 5% 0%;
