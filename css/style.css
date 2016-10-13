@@ -42,8 +42,12 @@ hr {
 
 /*-- SKILLS --*/
 .skills table {
-	table-layout: fixed;
 	margin: 5% 0%;
+}
+@media(min-width: 992px) {
+	.skills table {
+		table-layout: fixed;
+	}
 }
 
 /*-- ENTRY --*/
