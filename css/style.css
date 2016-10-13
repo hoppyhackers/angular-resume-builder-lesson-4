@@ -37,24 +37,13 @@ body {
 }
 
 /*-- SKILLS --*/
-.skills {
+.skills hr {
 	width: 80%;
 	margin: 0% 10%;
 }
 .skills table {
 	table-layout: fixed;
-}
-
-/*-- EXPERIENCE --*/
-.experience {
-	width: 80%;
-	margin: 30px 10%;
-}
-
-/*-- EDUCATION --*/
-.education {
-	width: 80%;
-	margin: 30px 10%;
+	margin: 5% 0%;
 }
 
 /*-- ENTRY --*/
@@ -65,10 +54,4 @@ body {
 	.entry h3 {
 		text-align: right;
 	}
-}
-
-/*-- Contact --*/
-.contact {
-	width: 80%;
-	margin: 30px 10%;
 }
